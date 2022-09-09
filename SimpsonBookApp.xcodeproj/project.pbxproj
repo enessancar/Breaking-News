@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC0E5E3828CB8DC000008949 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0E5E3728CB8DC000008949 /* AppDelegate.swift */; };
+		EC0E5E3A28CB8DC000008949 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0E5E3928CB8DC000008949 /* SceneDelegate.swift */; };
+		EC0E5E3C28CB8DC000008949 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0E5E3B28CB8DC000008949 /* ViewController.swift */; };
+		EC0E5E3F28CB8DC000008949 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC0E5E3D28CB8DC000008949 /* Main.storyboard */; };
+		EC0E5E4128CB8DC100008949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC0E5E4028CB8DC100008949 /* Assets.xcassets */; };
+		EC0E5E4428CB8DC100008949 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC0E5E4228CB8DC100008949 /* LaunchScreen.storyboard */; };
+		EC0E5E5028CB926D00008949 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0E5E4F28CB926D00008949 /* DetailsViewController.swift */; };
+		EC0E5E5328CBA33900008949 /* Simpson.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0E5E5228CBA33900008949 /* Simpson.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC0E5E3428CB8DC000008949 /* SimpsonBookApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpsonBookApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC0E5E3728CB8DC000008949 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC0E5E3928CB8DC000008949 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EC0E5E3B28CB8DC000008949 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC0E5E3E28CB8DC000008949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC0E5E4028CB8DC100008949 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC0E5E4328CB8DC100008949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC0E5E4528CB8DC100008949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC0E5E4F28CB926D00008949 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		EC0E5E5228CBA33900008949 /* Simpson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simpson.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC0E5E3128CB8DC000008949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC0E5E2B28CB8DC000008949 = {
+			isa = PBXGroup;
+			children = (
+				EC0E5E3628CB8DC000008949 /* SimpsonBookApp */,
+				EC0E5E3528CB8DC000008949 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC0E5E3528CB8DC000008949 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC0E5E3428CB8DC000008949 /* SimpsonBookApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC0E5E3628CB8DC000008949 /* SimpsonBookApp */ = {
+			isa = PBXGroup;
+			children = (
+				EC0E5E5128CBA32F00008949 /* Model */,
+				EC0E5E4B28CB8EE300008949 /* App */,
+				EC0E5E4C28CB8EF300008949 /* Controller */,
+				EC0E5E4D28CB8EFA00008949 /* View */,
+				EC0E5E4E28CB8F0B00008949 /* Resources */,
+			);
+			path = SimpsonBookApp;
+			sourceTree = "<group>";
+		};
+		EC0E5E4B28CB8EE300008949 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EC0E5E3728CB8DC000008949 /* AppDelegate.swift */,
+				EC0E5E3928CB8DC000008949 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EC0E5E4C28CB8EF300008949 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EC0E5E3B28CB8DC000008949 /* ViewController.swift */,
+				EC0E5E4F28CB926D00008949 /* DetailsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EC0E5E4D28CB8EFA00008949 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC0E5E3D28CB8DC000008949 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC0E5E4E28CB8F0B00008949 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EC0E5E4028CB8DC100008949 /* Assets.xcassets */,
+				EC0E5E4228CB8DC100008949 /* LaunchScreen.storyboard */,
+				EC0E5E4528CB8DC100008949 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EC0E5E5128CBA32F00008949 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC0E5E5228CBA33900008949 /* Simpson.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC0E5E3328CB8DC000008949 /* SimpsonBookApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC0E5E4828CB8DC100008949 /* Build configuration list for PBXNativeTarget "SimpsonBookApp" */;
+			buildPhases = (
+				EC0E5E3028CB8DC000008949 /* Sources */,
+				EC0E5E3128CB8DC000008949 /* Frameworks */,
+				EC0E5E3228CB8DC000008949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpsonBookApp;
+			productName = SimpsonBookApp;
+			productReference = EC0E5E3428CB8DC000008949 /* SimpsonBookApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC0E5E2C28CB8DC000008949 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					EC0E5E3328CB8DC000008949 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = EC0E5E2F28CB8DC000008949 /* Build configuration list for PBXProject "SimpsonBookApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC0E5E2B28CB8DC000008949;
+			productRefGroup = EC0E5E3528CB8DC000008949 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC0E5E3328CB8DC000008949 /* SimpsonBookApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC0E5E3228CB8DC000008949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC0E5E4428CB8DC100008949 /* LaunchScreen.storyboard in Resources */,
+				EC0E5E4128CB8DC100008949 /* Assets.xcassets in Resources */,
+				EC0E5E3F28CB8DC000008949 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC0E5E3028CB8DC000008949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC0E5E3C28CB8DC000008949 /* ViewController.swift in Sources */,
+				EC0E5E3828CB8DC000008949 /* AppDelegate.swift in Sources */,
+				EC0E5E3A28CB8DC000008949 /* SceneDelegate.swift in Sources */,
+				EC0E5E5028CB926D00008949 /* DetailsViewController.swift in Sources */,
+				EC0E5E5328CBA33900008949 /* Simpson.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC0E5E3D28CB8DC000008949 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC0E5E3E28CB8DC000008949 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC0E5E4228CB8DC100008949 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC0E5E4328CB8DC100008949 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC0E5E4628CB8DC100008949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC0E5E4728CB8DC100008949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC0E5E4928CB8DC100008949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3KRQW7JR73;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimpsonBookApp/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enes.SimpsonBookApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC0E5E4A28CB8DC100008949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3KRQW7JR73;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimpsonBookApp/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enes.SimpsonBookApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC0E5E2F28CB8DC000008949 /* Build configuration list for PBXProject "SimpsonBookApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC0E5E4628CB8DC100008949 /* Debug */,
+				EC0E5E4728CB8DC100008949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC0E5E4828CB8DC100008949 /* Build configuration list for PBXNativeTarget "SimpsonBookApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC0E5E4928CB8DC100008949 /* Debug */,
+				EC0E5E4A28CB8DC100008949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC0E5E2C28CB8DC000008949 /* Project object */;
+}
